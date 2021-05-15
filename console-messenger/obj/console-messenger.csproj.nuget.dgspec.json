@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateusz\\Desktop\\Projects\\console-messenger\\console-messenger\\console-messenger\\console-messenger.csproj": {}
+    "C:\\Users\\mateusz\\Desktop\\Nowy folder (2)\\console-messenger\\console-messenger\\console-messenger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateusz\\Desktop\\Projects\\console-messenger\\console-messenger\\console-messenger\\console-messenger.csproj": {
+    "C:\\Users\\mateusz\\Desktop\\Nowy folder (2)\\console-messenger\\console-messenger\\console-messenger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateusz\\Desktop\\Projects\\console-messenger\\console-messenger\\console-messenger\\console-messenger.csproj",
+        "projectUniqueName": "C:\\Users\\mateusz\\Desktop\\Nowy folder (2)\\console-messenger\\console-messenger\\console-messenger.csproj",
         "projectName": "console-messenger",
-        "projectPath": "C:\\Users\\mateusz\\Desktop\\Projects\\console-messenger\\console-messenger\\console-messenger\\console-messenger.csproj",
+        "projectPath": "C:\\Users\\mateusz\\Desktop\\Nowy folder (2)\\console-messenger\\console-messenger\\console-messenger.csproj",
         "packagesPath": "C:\\Users\\mateusz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateusz\\Desktop\\Projects\\console-messenger\\console-messenger\\console-messenger\\obj\\",
+        "outputPath": "C:\\Users\\mateusz\\Desktop\\Nowy folder (2)\\console-messenger\\console-messenger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mateusz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2020.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

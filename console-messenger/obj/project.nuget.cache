@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "UwqDquRI0MKe9q+znaqn1+y3ssVqdCj89EqaTNt5zdjfH83uiq17aPCNwtboSYvyaY4STcf5q1wIZZOizMuHBA==",
+  "dgSpecHash": "LOTdFAcNqYrFYNBjHeoraySOo9K7ADfxkXcEcj5P5LGHc2mlPXc92L8Fr51ZCPFi7MuVd27WwmgCCjJ2fIWsvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateusz\\Desktop\\Projects\\console-messenger\\console-messenger\\console-messenger\\console-messenger.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\mateusz\\Desktop\\Nowy folder (2)\\console-messenger\\console-messenger\\console-messenger.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mateusz\\.nuget\\packages\\ssh.net\\2020.0.1\\ssh.net.2020.0.1.nupkg.sha512",
+    "C:\\Users\\mateusz\\.nuget\\packages\\sshnet.security.cryptography\\1.3.0\\sshnet.security.cryptography.1.3.0.nupkg.sha512"
+  ],
   "logs": []
 }
