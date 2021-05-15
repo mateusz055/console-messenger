@@ -31,7 +31,7 @@ namespace console_messenger
         public async void WaitForData(Socket soc)
         {
 
-            
+
             if (asyncCallBack == null)
                 asyncCallBack = new AsyncCallback(OnDataReceived);
 
@@ -45,15 +45,16 @@ namespace console_messenger
 
 
         }
-          IAsyncResult OnDataReceived(object sender, EventArgs e)
+        void OnDataReceived(IAsyncResult result)
         {
-            
+
             KeyValuePair aKeyValuePair = (KeyValuePair)asyn.AsyncState;
             int iRx = 0;
             iRx = aKeyValuePair.socket.EndReceive(asyn);
             if (iRx != 0)
             {
                 byte[] recv = aKeyValuePair.dataBuffer;
+                Console.WriteLine(recv.ToString());
             }
         }
     }
